@@ -1,0 +1,1 @@
+This plugin adds a custom lightbox for viewing pictures.

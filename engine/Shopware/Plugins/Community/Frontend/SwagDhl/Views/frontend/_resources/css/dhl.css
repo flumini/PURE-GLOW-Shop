@@ -1,0 +1,69 @@
+#packstation_number, #postoffice_number {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#psWindow {
+    float: right;
+    padding-right: 16px;
+}
+
+.dhl_container label {
+    width: 150px;
+}
+
+.grid_15 div.dhl_container .shipping-address {
+    width: 200px !important;
+    margin-top: 20px !important;
+}
+
+.dhl_container {
+    border-right: 1px solid #DFDFDF;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 250px;
+}
+
+.dhl_container:last-child {
+    border-right: 0 none;
+}
+
+.dhl_container:first-child {
+    margin-left: 0;
+}
+
+.zipcode.dhl_textfield {
+    padding: 5px;
+    width: 35px;
+}
+.city.dhl_textfield {
+    padding: 5px;
+    width: 96px;
+}
+
+.dhl_textfield {
+    padding: 5px;
+}
+
+.dhl_textfield.full {
+    width: 145px;
+}
+
+.dhl_container .alternative_shipping {
+    margin-top: 25px;
+}
+
+.dhl_actions {
+    float: right;
+}
+
+.dhl_actions input:disabled {
+    opacity: 0.3;
+}
+
+#content #confirm .dispatch-methods .method_last {
+    border-bottom: 1px solid #dfdfdf;
+    margin: 5px 0;
+    padding: 10px 0;
+    width: 918px;
+}

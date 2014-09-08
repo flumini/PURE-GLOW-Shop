@@ -1,0 +1,31 @@
+{literal}
+    [
+        {
+            "search":"parentForm.submit();" ,
+            "replace":"//parentForm.submit();"
+        },
+        {
+            "search":"'textContainer': '<div>'," ,
+            "replace":"'textContainer': '<'+'div>',"
+        },
+        {
+            "search":"for(i=0; i<paymentRadioButtons.length; i++) {" ,
+            "replace":"for(i=0; i < paymentRadioButtons.length; i++) {"
+        },
+        {
+            "_comment":"Shopware Verfuegbarkeitsampel",
+            "search":"$('select.availabilityDisplay').swagAvailabilityDisplay({",
+            "replace":"var bla = ({"
+        },
+        {
+            "_comment":"Warenkorb-Merkzettel-Plugin",
+            "search":"'textContainer': '<div>',",
+            "replace":"'textContainer': '<'+'div>',"
+        },
+        {
+            "_comment":"Warenkorb-Merkzettel-Plugin",
+            "search":'<div class="heading"><h2>Merkzettel</h2><a href="#" class="modal_close addnote_close" title="Fenster schließen">Fenster schließen</a></div><p class="modal_note_inner">Der Artikel wurde dem Merkzettel hinzugefügt.<br /><br /><a href="#" class="button-right large right" rel="nofollow">Schließen</a></p>',
+            "replace":"<'+'div class=\"heading\"><'+'h2>Merkzettel<'+'/h2><'+'a href=\"#\" class=\"modal_close addnote_close\" title=\"Fenster schließen\">Fenster schließen<'+'/a><'+'/div><'+'p class=\"modal_note_inner\">Der Artikel wurde dem Merkzettel hinzugefügt.<'+'br /><'+'br /><'+'a href=\"#\" class=\"button-right large right\" rel=\"nofollow\">Schließen<'+'/a><'+'/p>"
+        },
+    ]
+{/literal}

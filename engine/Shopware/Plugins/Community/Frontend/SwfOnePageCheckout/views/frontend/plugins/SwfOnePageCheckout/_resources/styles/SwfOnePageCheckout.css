@@ -1,0 +1,688 @@
+.table .table_row .basket_details {
+    position: relative;
+    float: left;
+    left: 0;
+    top: 0;
+}
+
+.table .table_row {
+    position: relative;
+    float: left;
+    min-height: 0px;
+}
+
+#SwfCartItems .SwfCartItemHeader {
+    padding-top: 15px;
+}
+
+.table .table_row .action a.del {
+    right: 5px;
+    top: 7px;
+}
+
+table {
+    border: 0 none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+table tbody tr td,
+table tbody tr th {
+    border: 0 none;
+}
+
+#login .inner_container {
+    width: auto;
+}
+
+#center {
+    float: left;
+    margin-left: 10px;
+}
+
+h3.underline {
+    margin-bottom: 20px !important;
+    margin: 0 !important;
+    margin: 10px 0 20px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+    color: #E1540F;
+    font-size: 12px !important;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    font-weight: 700;
+}
+
+#content #confirm {
+    width: 100%;
+}
+
+#content .inner #center.register,
+#content div.inner .change_billing,
+#content div.inner .change_shipping,
+#content div.inner .change_payment {
+    width: 700px;
+}
+
+#SwfOnepagecheckout,
+#SwfCart,
+#SwfCartContent,
+#SwfCartSummary,
+#SwfCartActions,
+#SwfCheckout,
+#SwfLogin,
+#SwfPersonal,
+#SwfBilling,
+#SwfShipping,
+#SwfDispatches,
+#SwfPayments,
+#SwfFooter,
+#SwfRegister,
+#SwfConfirm,
+#SwfConfirmwrapper,
+#SwfSummary {
+    position: relative;
+    float: left;
+}
+
+#SwfCart > div,
+#SwfCartContent > div,
+#SwfCartSummary > div,
+#SwfCheckout > div,
+#SwfLogin > div,
+#SwfPersonal > div,
+#SwfShipping > div,
+#SwfBilling > div,
+#SwfDispatches > div,
+#SwfPayments > div,
+#SwfFooter > div,
+#SwfRegister > div,
+#SwfConfirmwrapper > div {
+    width: 100%;
+}
+
+.register .personal_settings.SwfBox {
+    float: left;
+    background-color: #F3F3F3;
+    border: 1px solid #DFDFDF;
+    border-bottom: none;
+    width: 100%;
+}
+
+.SwfBox {
+    float: left;
+    background-color: #F3F3F3;
+    border: 1px solid #DFDFDF;
+    width: 100%;
+}
+
+#SwfPayments .grid_10 {
+    width: 230px !important;
+}
+
+#SwfOnepagecheckout .SwfAjaxLoaderOverlay {
+    position: absolute;
+    background-color: #fff;
+    width: 103%;
+    height: 102%;
+    min-height: 200px;
+    opacity: 0.8;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    z-index: 100;
+    margin-right: -1px;
+    top: 0;
+    margin: 0;
+    float: left;
+}
+
+#SwfOnepagecheckout .SwfAjaxLoaderOverlay.clickable {
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+#SwfCart .SwfAjaxLoaderOverlay {
+    width: 101% !important;
+}
+
+.SwfAjaxLoaderImage {
+    position: absolute;
+    background: url('../images/ajaxLoader.gif');
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+}
+
+#SwfOnepagecheckout {
+    min-height: 500px;
+}
+
+.container_20 #basket {
+    margin: 0;
+    width: 100%;
+}
+
+#basket .cart {
+    margin: 0 !important;
+}
+
+.vouchers,
+.add_article {
+    margin-left: 18px !important;
+}
+
+#basket .cart .table_row .box .box_cart_info {
+    color: #E1540F;
+    float: left;
+    margin: 0.5em 0;
+    padding: 0 50px;
+    text-align: center;
+    width: auto;
+}
+
+#SwfCart .error,
+#SwfCart .notice,
+#SwfCart .success {
+    margin: 10px;
+}
+
+#SwfMeta {
+    height: 0;
+    margin: 0;
+}
+
+#SwfBilling h1,
+#SwfShipping h1 {
+    display: none;
+}
+
+#content #confirm #SwfConfirm h3.underline {
+    border: none;
+    border-bottom: 1px solid #DFDFDF !important;
+}
+
+#SwfConfirm .dispatch-methods,
+#SwfPayment .payment_method {
+    float: left;
+}
+
+#SwfConfirm .dispatch-methods {
+    border-bottom: none;
+    float: left;
+}
+
+#confirm .dispatch-methods .grid_5 {
+    padding: 0 0 0 40px;
+}
+
+#content #confirm #SwfConfirm .dispatch-methods .method,
+#Swfpayment .payment_method .method {
+    width: inherit;
+    margin-left: 10px;
+}
+
+#SwfOnepagecheckout .agb_accept {
+    position: relative;
+}
+
+#content #confirm #SwfConfirm .method.last {
+    border-bottom: none;
+}
+
+#SwfConfirmBlocks div:not(.billpay_content_inner .actions) {
+    float: left;
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+#confirm #SwfConfirmBlocks .actions {
+    position: absolute;
+    bottom: 0;
+}
+
+/*#SwfConfirmBlocks .billpay_content_inner div {
+	width: 100%;
+	float: left;
+}*/
+#SwfConfirmBlocks {
+    padding-bottom: 60px;
+}
+
+#SwfConfirmBlocks .SwfPremiums {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.error,
+.notice,
+.success {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0.8em 0;
+}
+
+.register .alt_shipping span,
+.register .chklabel {
+    width: auto;
+}
+
+#SwfTemp {
+    display: none;
+}
+
+.SwfFull {
+    width: 95% !important;
+    margin: 10px !important;
+}
+
+.SwfFull input {
+    margin: 3px 0;
+}
+
+#confirm .additional_footer {
+    width: 100%;
+}
+
+#content #confirm .grid_16 {
+    width: 100%;
+}
+
+#confirm .additional-options .inner_container {
+    width: 100%;
+    padding: 0;
+}
+
+#SwfConfirmwrapper {
+    border-top: 1px solid #DFDFDF;
+    padding-top: 20px;
+    overflow: visible;
+}
+
+#SwfConfirmwrapper #content {
+    margin-top: 0px;
+    overflow: visible;
+}
+
+.none label {
+    width: 100px;
+}
+
+#content #confirm .table_premium .article {
+    margin: 10px;
+    width: 317px;
+}
+
+#content #confirm .additional-options h2.headingbox, #content #confirm .additional_footer h2.headingbox {
+    padding-left: 10px;
+    color: #E1540F;
+    font-size: 12px;
+    border-bottom: 1px solid #DFDFDF;
+    font-weight: 700;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 !important;
+    padding: 0 15px;
+}
+
+#confirm .additional-options .table_premium .body .article .button-right {
+    bottom: 10px;
+    right: 5px;
+}
+
+#confirm .additional-options .table_premium .body .thumbnail img {
+    height: 80%;
+    width: auto;
+    margin: 10%;
+}
+
+#confirm .additional-options .table_premium .body .bonus_price span {
+    float: left;
+    width: auto;
+}
+
+#basketButton {
+    float: right;
+}
+
+#confirm .additional-options .user-comment {
+    width: 100%;
+}
+
+#confirm .additional-options .user-comment textarea {
+    width: 647px;
+    margin: 10px;
+}
+
+.user-comment label {
+    background: #fff;
+    padding-left: 10px;
+    float: left;
+    width: 100%;
+    color: #E1540F;
+    font-size: 12px;
+    border-bottom: 1px solid #DFDFDF;
+    font-weight: 700;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    margin: 0;
+}
+
+#confirm .additional-options .table_premium .body .bonus_price {
+    top: 40px;
+}
+
+.SwfEditBasket .box {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.SwfEditBasket .box a {
+    color: #E1540F;
+}
+
+#SwfCart .table {
+    float: left;
+}
+
+#SwfCart .accordion {
+    width: 100% !important;
+}
+
+.accordion li {
+    width: 99%;
+    display: block;
+}
+
+.accordion li .detail {
+    position: relative;
+    top: -95px;
+    width: 100%;
+    height: 30px;
+}
+
+.table .table_row.SwfCartItemDetail {
+    padding-bottom: 20px;
+}
+
+#SwfConfirmBlocks .SwfFull:not(.actions) {
+    float: left;
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+#SwfConfirmBlocks .billpay_content_outer {
+    height: 0px !important;
+    min-height: 0px !important;
+}
+
+#SwfConfirmBlocks .billpay_content_inner {
+    float: left;
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    left: 2%;
+    height: auto !important;
+    width: 92% !important;
+}
+
+#SwfCartItems .SwfCartItemHeader {
+    border-bottom: none;
+}
+
+#SwfCartItems.ui-accordion .SwfCartItemHeader {
+    border-bottom: 1px solid #DFDFDF;
+}
+
+#SwfCartItems.ui-accordion .SwfCartItemHeader.ui-state-active {
+    border-bottom: none;
+}
+
+#content #confirm .method .grid_10 {
+    width: 370px;
+}
+
+.bankdata {
+    float: right;
+}
+
+#SwfLogin .grid_10 {
+    margin: 0;
+    width: 100%;
+}
+
+#SwfConfirmBlocks .additional-options .table_premium {
+    margin-top: -5px;
+}
+
+.SwfConfirmFooter .user-comment textarea {
+    width: 95%;
+    margin: 10px;
+    height: 50px;
+}
+
+.SwfConfirmFooter {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+#SwfRegister .privacy {
+    width: 100%;
+    background-color: #F3F3F3;
+    border-left: 1px #DFDFDF solid;
+    border-right: 1px #DFDFDF solid;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+#SwfRegister .privacy input {
+    margin-left: 55px;
+}
+
+#streetnumber2 {
+    float: none !important;
+    margin-right: 0px !important;
+}
+
+#SwfCart .table_head p {
+    margin-left: 15px;
+}
+
+#SwfCart .basket_name {
+    width: 80%;
+}
+
+#SwfCart .basket_name {
+    margin-left: 15px;
+}
+
+#SwfCart .ordernumber {
+    margin-left: 10px;
+    top: 0px;
+}
+
+#SwfCart .SwfCartItemHeader td {
+    padding: 0;
+}
+
+/* Bonus Punkte */
+.points_for_basket {
+    float: left !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    background-color: #F3F3F3 !important;
+    border: 1px solid #DFDFDF !important;
+    border-bottom: none !important;
+    width: 100% !important;
+}
+
+#content #SwfConfirm .points_for_basket h2 {
+    margin-top: 0px !important;
+    padding-left: 10px !important;
+    color: #E1540F !important;
+    font-size: 12px !important;
+    border-bottom: 1px solid #DFDFDF !important;
+    font-weight: 700 !important;
+    height: 35px !important;
+    line-height: 35px !important;
+    margin: 0 !important;
+    padding: 0 15px !important;
+}
+
+.basket-points_left, .basket-points_right {
+    margin: 10px !important;
+    margin-bottom: 4px !important;
+}
+
+#SwfCart .points_for_basket, #SwfCart .basket-points {
+    display: none;
+}
+
+#SwfPayment .error {
+    padding-top: 0px;
+    position: relative;
+}
+
+#SwfPayment .error h2 {
+    margin-top: 0px;
+    top: 0px;
+}
+
+#SwfPayment .method.last {
+    border: none;
+}
+
+#content #confirm .payment_method {
+    margin-bottom: 20px !important;
+}
+
+.table .bottom_article_row a.thumb_image {
+    margin: 0;
+    height: 25px;
+    width: 28px;
+}
+
+#confirm .table .bottom_article_row {
+    min-height: 25px;
+}
+
+.table .bottom_article_row .title {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 600;
+}
+
+#confirm .table .bottom_article_row .ordernumber {
+    font-size: 9px;
+}
+
+#confirm .table .bottom_article_row {
+    padding: 10px 0px 0px;
+}
+
+#confirm .table .sm_bottom {
+    min-height: 15px;
+}
+
+#confirm .bottom .table_foot {
+    padding-left: 398px;
+    width: 100%;
+}
+
+#confirm .table .table_row, #confirm .table .table_header, #confirm .table .table_foot, #confirm .table .table_head {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#confirm .bottom_checkbox {
+    width: 280px;
+}
+
+#confirm div.bottom_article_agb label.chklabel {
+    padding: 8px;
+    margin: 0px;
+}
+
+#confirm .bottom_article_agb {
+
+    margin-top: 5 !important;
+    margin-bottom: 0 !important;
+}
+
+#confirm .bottom_article_agb p {
+    margin: 0;
+}
+
+#confirm .bottom_article_agb {
+
+    margin-top: 5 !important;
+    margin-bottom: 0 !important;
+}
+
+#confirm .table .table_head {
+    border-top: 1px solid;
+    border-color: #C7C7C7;
+    margin-top: 5px !important;
+
+}
+
+#confirm .SwfBox .method .first {
+    margin-top: 5px;
+}
+
+#content #confirm .grid_6 {
+    width: 280px;
+}
+
+#content #confirm .swf_grid_6 {
+    width: 280px;
+    margin-left: 95px !important;
+}
+
+#content #confirm .grid_1 {
+    width: 30px;
+}
+
+#content #confirm .table .small_quantities .grid_6 {
+    width: 280px;
+}
+
+#SwfConfirmBlocks .swf_push_3 {
+    left: 65px;
+}
+
+#SwfConfirmBlocks .swf_push_2 {
+    left: 15px;
+}
+
+#content #confirm .grid_3 {
+    width: 130px;
+}
+
+#content #confirm .table .table_foot {
+    width: 375px;
+}
+
+#content #confirm .table {
+    width: 690px;
+}
+
+#content #confirm .table .table_row {
+    width: 665px;
+}

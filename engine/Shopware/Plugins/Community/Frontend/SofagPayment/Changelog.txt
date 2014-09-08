@@ -1,0 +1,40 @@
+#SOFORT AG SHOPWARE PLUGIN
+------------------------------------------------------------------------------------------------------------------------
+
+##EN
+2.0.0 Rework of the Shopware Plugin
+ * Added iDEAL as a payment method
+ * Added Log with custom backend view
+
+2.0.1 Fixed a bug causing customers created from the shop backend not to be able to complete iDEAL checkouts
+
+2.0.2
+ * Fixed a bug causing Sofort Banking payment with more than 1 unique article in the basket to be impossible
+ * Fixed a bug causing Sofort Banking Confirmation Mails with attachments to crash the checkout process.
+
+2.0.3
+ * Fixed a bug causing customers created from the shop backend to be redirected to an error page if they did not select iDEAL as the default payment method.
+
+2.0.4
+ * Made adjustments according to Shopware code review
+ * Added workaround for a shopware bug regarding model attributes
+ * Changed the backend description of sofort banking from Sofort Überweisung to Sofort Überweisung / Sofort Banking
+
+##DE
+2.0.0 Neuentwicklung des Shopware Plugins 
+ * iDEAL als Zahlungsart hinzugefügt
+ * Log mit eigener Ansicht im Backend hinzugefügt
+
+2.0.1 Fehler behoben, der aus dem Shop Backend herraus erstellte Kunden vom erfolgreichen Checkout mit iDEAL abhielt
+
+2.0.2
+ * Fehler behoben, der Sofort Überweisungs Zahlungen bei einem Warenkorb mit mehr als 1 Artikel unterschiedlicher Art unmöglich machte.
+ * Fehler behoben, der auftrat, wenn Sofort Überweisungs Bestellbestätigungen mit einem Email Anhang versendet werden sollten.
+
+2.0.3
+ * Fehler behoben, der aus dem Shop Backend herraus erstellte Kunden beim Zahlartenwechsel auf eine Fehlerseite weiterleitete, wenn nicht iDEAL als Zahlart ausgewählt war.
+
+2.0.4
+ * Anpassungen nach Shopware Code Review umgesetzt
+ * Added workaround for a shopware bug regarding model attributes
+ * Backend Beschreibung der Zahlart Sofort Überweisung von Sofort Überweisung in Sofort Überweisung / Sofort Banking umbenannt

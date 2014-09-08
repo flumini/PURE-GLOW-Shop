@@ -1,0 +1,65 @@
+[2014-08-24 16:03:54] core.ERROR: exception 'Doctrine\ORM\NoResultException' with message 'No result was found for query although at least one row was expected.' in /kunden/399154_22085/webseiten/shop/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php:649
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Shopware/Controllers/Backend/MediaManager.php(1005): Doctrine\ORM\AbstractQuery->getSingleResult()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_MediaManager->createThumbnailsAction()
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('createThumbnail...')
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#4 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#5 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(472): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#7 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(243): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#8 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(102): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#9 /kunden/399154_22085/webseiten/shop/shopware.php(109): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 {main} [] {"uid":"bb7542e"}
+[2014-08-24 16:05:14] core.ERROR: exception 'Doctrine\ORM\NoResultException' with message 'No result was found for query although at least one row was expected.' in /kunden/399154_22085/webseiten/shop/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php:649
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Shopware/Controllers/Backend/MediaManager.php(1005): Doctrine\ORM\AbstractQuery->getSingleResult()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_MediaManager->createThumbnailsAction()
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('createThumbnail...')
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#4 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#5 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(472): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#7 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(243): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#8 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(102): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#9 /kunden/399154_22085/webseiten/shop/shopware.php(109): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 {main} [] {"uid":"ef47a3f"}
+[2014-08-24 16:11:20] core.ERROR: exception 'Doctrine\ORM\NoResultException' with message 'No result was found for query although at least one row was expected.' in /kunden/399154_22085/webseiten/shop/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php:649
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Shopware/Controllers/Backend/MediaManager.php(1005): Doctrine\ORM\AbstractQuery->getSingleResult()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_MediaManager->createThumbnailsAction()
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('createThumbnail...')
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#4 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#5 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(472): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#7 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(243): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#8 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(102): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#9 /kunden/399154_22085/webseiten/shop/shopware.php(109): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 {main} [] {"uid":"ab23388"}
+[2014-08-24 16:14:41] core.ERROR: exception 'Doctrine\ORM\NoResultException' with message 'No result was found for query although at least one row was expected.' in /kunden/399154_22085/webseiten/shop/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php:649
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Shopware/Controllers/Backend/MediaManager.php(1005): Doctrine\ORM\AbstractQuery->getSingleResult()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_MediaManager->createThumbnailsAction()
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('createThumbnail...')
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#4 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#5 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(472): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#7 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(243): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#8 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(102): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#9 /kunden/399154_22085/webseiten/shop/shopware.php(109): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 {main} [] {"uid":"d9f4b3f"}
+[2014-08-24 16:15:58] core.ERROR: exception 'Doctrine\ORM\NoResultException' with message 'No result was found for query although at least one row was expected.' in /kunden/399154_22085/webseiten/shop/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php:649
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Shopware/Controllers/Backend/MediaManager.php(1005): Doctrine\ORM\AbstractQuery->getSingleResult()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_MediaManager->createThumbnailsAction()
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('createThumbnail...')
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#4 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#5 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(472): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#7 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(243): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#8 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(102): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#9 /kunden/399154_22085/webseiten/shop/shopware.php(109): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 {main} [] {"uid":"206613e"}

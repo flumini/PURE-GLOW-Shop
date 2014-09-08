@@ -1,0 +1,16 @@
+{
+    "currentVersion": "1.0.3",
+ 
+    "changelogs": {
+        "1.0.1": "Fixes install issue",
+        "1.0.2": "better error output; fixed packstation search",
+        "1.0.3": "Google map is now shown with enabled SSL; DHL dispatch can now be duplicated; shipping to packstation/postoffice only available for germany; fixed weight calculation; Google Maps Key is now optional"
+    },
+     
+    "compatibility": {
+        "minimumVersion": "4.2.0",
+        "maximumVersion": null,
+        "blacklist": [
+        ]
+    }
+}
