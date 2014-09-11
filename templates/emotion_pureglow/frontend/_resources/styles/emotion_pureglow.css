@@ -448,11 +448,17 @@ div#left div.searchbox h3 {color: #758E00}
 .fuzzy .category_filter h3, #content #left .filter_search h3.heading {color: #000; border-color: #dfdfdf}
 .fuzzy .category_filter .border {border-color: #dfdfdf}
 .fuzzy .category_filter .categories {border-color: #dfdfdf;}
-.fuzzy .category_filter .showall {color: #9e0000;}
+.fuzzy .category_filter .showall {color: #3e3e3e; font-weight: bold; background: url(../images/icons/ico_search-delete.png) no-repeat;}
 #content #left .filter_search h3.heading {border-left-color: #dfdfdf;}
 #content #left .filter_search .searchbox {border-color: #dfdfdf; border-left-color: #dfdfdf;}
 #content #left .filter_search .searchbox h3, #content #left .filter_search .searchbox li.showall a {color: #555;}
 #content #left .filter_search .searchbox li a, #content #left .filter_search .searchbox li.active {color:#333;}
+#content #left .filter_search .searchbox li.active { background: url(../images/icons/ico_search_active.png) no-repeat; background-position: 10px center;
+padding: 0 0 0 30px;
+width: 146px;}
+#content #left .filter_search .searchbox li.showall a {
+background: url(../images/icons/ico_search-delete.png) no-repeat;background-position: 10px center;
+}
 
 /*	FINISHED AND COMPARE
 	------------------------ */
@@ -1152,3 +1158,4 @@ div.morearticles h2 {
 	margin: 10px;
 
 }
+
