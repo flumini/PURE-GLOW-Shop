@@ -22,6 +22,9 @@
 	Separators:		#cccccc
 */
 
+@import url("entypo/style.css");
+
+
 /*	GENERAL
 	------------------------ */
 html, a, a:link, a:active, a:hover, a:visted {color: #333;}
@@ -1142,4 +1145,10 @@ div.morearticles h2 {
 
 #mc_embed_signup .mc-field-group label {
 	font-size: 11px;
+}
+
+.social-menu li {
+	display: inline-block;
+	margin: 10px;
+
 }
