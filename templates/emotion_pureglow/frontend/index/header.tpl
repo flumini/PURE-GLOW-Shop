@@ -31,6 +31,8 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 
   ga('create', 'UA-3022126-11', 'auto');
   ga('send', 'pageview');
+  ga('require', 'displayfeatures');
+
 
 </script>
 {/literal}
